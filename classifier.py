@@ -43,16 +43,6 @@ print ('Accuracy of logistic regression: %d ' % float((np.dot(Y,LR_predictions) 
 
 
 def layer_sizes(X, Y):
-    """
-    Arguments:
-    X -- input dataset of shape (input size, number of examples)
-    Y -- labels of shape (output size, number of examples)
-    
-    Returns:
-    n_x -- the size of the input layer
-    n_h -- the size of the hidden layer
-    n_y -- the size of the output layer
-    """
     n_x = X.shape[0] # size of input layer
     n_h =4
     n_y =Y.shape[0] # size of output layer
@@ -98,8 +88,6 @@ print("W1 = " + str(parameters["W1"]))
 print("b1 = " + str(parameters["b1"]))
 print("W2 = " + str(parameters["W2"]))
 print("b2 = " + str(parameters["b2"]))
-
-
 
 def forward_propagation(X, parameters):
     
