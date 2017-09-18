@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# # Planar data classification with one hidden layer
-
 import numpy as np
 import matplotlib.pyplot as plt
 from testCases import *
